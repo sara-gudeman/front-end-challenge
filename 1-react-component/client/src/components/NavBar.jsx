@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var data = require('../assets/data.json');
+var _data = require('../assets/data.json');
 
 var Content = React.createClass({
 	render: function () {
@@ -31,19 +31,21 @@ var NavList = React.createClass({
 	}
 });
 
-var NavBar = React.createClass({
+var Classifieds = React.createClass({
 	render: function () {
 		return (
-			<nav>
-				<ul>
-					<li>{nav.titles}</li>
-				</ul>
-			</nav>
+			<div>
+				<nav>
+					<NavList data={this.props.data}/>
+				</nav>
+				<div>Content</div>
+			</div>
 		);
 	}
 });
 
+// making the assumption that later on the data can change
 ReactDOM.render(
-	<NavBar />,
+	<Classifieds data={_data.classifieds} />,
 	document.getElementById('content')
 );
