@@ -1,0 +1,8 @@
+Rough Draft
+
+Structure:
+For Tabbed Navigation:
+	- NavBar
+		- TabList
+			- Tabs
+				- TabContent/Panels
