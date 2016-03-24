@@ -1,0 +1,19 @@
+{
+  "name": "1-react-component",
+  "version": "1.0.0",
+  "description": "NYTimes classfieds component made in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sara Gudeman",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
