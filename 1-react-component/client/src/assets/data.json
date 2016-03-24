@@ -1,43 +1,52 @@
 {
-  "classifieds": {
-    "real_estate": {
-      "featured": {
-        "section": "International Real Estate",
-        "title": "House Hunting in...London",
-        "link": "#",
-        "description": "Despite the slump after the 2008 housing crash, prices in London have rebounded to their highest levels ever.",
-        "slide_show": "#"
-      }, 
-      "details": {
-        "title": "Find Properties",
-        "links": [
-        {
-          "title": "Go to Real Estate Section",
-          "link": "#"
-        },
-        {
-          "title": "Search For Properties",
-          "link": "#"
-        },
-        {
-          "title": "Download the Real Estate App",
-          "link": "#"
-        },
-        {
-          "title": "Commercial Real Estate",
-          "link": "#"
-        },
-        {
-          "title": "Video Showcase: Real Estate",
-          "link": "#"
-        },
-        {
-          "title": "Post an Ad",
-          "link": "#"
-        }]
+  "classifieds": [
+    {
+      "name": "real estate",
+      "content": {
+        "featured": {
+          "subsection": "International Real Estate",
+          "title": "House Hunting in...London",
+          "link": "#",
+          "description": "Despite the slump after the 2008 housing crash, prices in London have rebounded to their highest levels ever.",
+          "slide_show": "#"
+        }, 
+        "details": {
+          "title": "Find Properties",
+          "links": [
+          {
+            "title": "Go to Real Estate Section",
+            "link": "#"
+          },
+          {
+            "title": "Search For Properties",
+            "link": "#"
+          },
+          {
+            "title": "Download the Real Estate App",
+            "link": "#"
+          },
+          {
+            "title": "Commercial Real Estate",
+            "link": "#"
+          },
+          {
+            "title": "Video Showcase: Real Estate",
+            "link": "#"
+          },
+          {
+            "title": "Post an Ad",
+            "link": "#"
+          }]
+        }
       }
     },
-    "autos": {},
-    "jobs": {}
-  }
+    {
+      "name": "autos", 
+      "content": {}
+    },
+    {
+      "name": "jobs", 
+      "content": {}
+    }
+  ]
 }
