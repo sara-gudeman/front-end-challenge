@@ -6,3 +6,22 @@ For Tabbed Navigation:
 		- TabList
 			- Tabs
 				- TabContent/Panels
+
+<NavBar>
+	<Tab>
+		<Content />
+	</Tab>
+	<Tab>
+		<Content />
+	</Tab>
+	<Tab>
+		<Content />
+	</Tab>
+</Navbar>
+
+- generate TabList dynamically in NavBar component
+
+- pass data as state into navigation
+- pass that data into the nav list
+- for each item in data, generate a nav item
+	- have info to display title and body
