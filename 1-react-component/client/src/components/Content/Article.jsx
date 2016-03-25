@@ -11,7 +11,7 @@ var Article = React.createClass({
 				<p className="description">
 					{this.props.article.description}
 				</p>
-				<img src="" />
+				<img src={this.props.article.img} />
 				<ul>
 					<li>
 						<a href={this.props.article.slideshow}>Slide Show</a>
