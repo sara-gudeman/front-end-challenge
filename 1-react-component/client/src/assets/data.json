@@ -1,60 +1,24 @@
 {
-  "classifieds": [
-    {
-      "name": "test1",
-      "content": "content test1"
-    },
-    {
-      "name": "test2",
-      "content": "content test2"
-    },
-    {
-      "name": "real estate",
-      "content": {
-        "featured": {
-          "subsection": "International Real Estate",
-          "title": "House Hunting in...London",
-          "link": "#",
-          "description": "Despite the slump after the 2008 housing crash, prices in London have rebounded to their highest levels ever.",
-          "slide_show": "#"
-        }, 
-        "details": {
-          "title": "Find Properties",
-          "links": [
-          {
-            "title": "Go to Real Estate Section",
-            "link": "#"
-          },
-          {
-            "title": "Search For Properties",
-            "link": "#"
-          },
-          {
-            "title": "Download the Real Estate App",
-            "link": "#"
-          },
-          {
-            "title": "Commercial Real Estate",
-            "link": "#"
-          },
-          {
-            "title": "Video Showcase: Real Estate",
-            "link": "#"
-          },
-          {
-            "title": "Post an Ad",
-            "link": "#"
-          }]
-        }
-      }
-    },
-    {
-      "name": "autos", 
-      "content": {}
-    },
-    {
-      "name": "jobs", 
-      "content": {}
-    }
-  ]
+	"classifieds": [
+	{
+		"section": "Real Estate",
+		"article": {
+		  "subsection": "International Real Estate",
+		  "title": "House Hunting in...London",
+		  "link": "#",
+		  "description": "Despite the slump after the 2008 housing crash, prices in London have rebounded to their highest levels ever.",
+		  "img": "images/london_house.jpg",
+		  "slideshow": "#"
+		}
+	},
+	{
+		"section": "Autos"
+	},
+	{
+		"section": "Jobs"
+	},
+	{
+		"section": "All Classifieds"
+	}
+	]
 }

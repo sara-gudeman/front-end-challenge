@@ -19,14 +19,14 @@ var Classifieds = React.createClass({
 			selected: id
 		});
 	},
-	getContent: function (type) {
-		return this.props.data[this.state.selected].content[type];
+	getContent: function () {
+		return this.props.data[this.state.selected];
 	},
 	render: function () {
 		return (
 			<div>
 				<NavBar selectTab={this.selectTab} data={this.props.data} />
-				<ContentBody />
+				<ContentBody data={this.getContent()} />
 			</div>
 		);
 	}

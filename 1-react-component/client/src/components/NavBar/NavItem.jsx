@@ -5,7 +5,7 @@ var NavItem = React.createClass({
 		return (
 			<li className="tab_item">
 				<a href="#" onClick={this.props.handleClick}>
-					{this.props.section.name}
+					{this.props.item.section}
 				</a>
 			</li>
 		);
