@@ -17,7 +17,7 @@ For Tabbed Navigation:
 	<Tab>
 		<Content />
 	</Tab>
-</Navbar>
+</TabList>
 
 - generate TabList dynamically in NavBar component
 
@@ -25,3 +25,12 @@ For Tabbed Navigation:
 - pass that data into the nav list
 - for each item in data, generate a nav item
 	- have info to display title and body
+
+Classifieds Structure:
+- Classifieds
+	- NavBar
+	- ContentBody
+		- ContentBox
+		- ContentBox
+	- Footer
+
