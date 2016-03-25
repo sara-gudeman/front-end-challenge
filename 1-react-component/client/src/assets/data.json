@@ -9,6 +9,27 @@
 		  "description": "Despite the slump after the 2008 housing crash, prices in London have rebounded to their highest levels ever.",
 		  "img": "images/london_house.jpg",
 		  "slideshow": "#"
+		},
+		"details": {
+			"subsection": "Find Properties",
+			"links": [
+				{
+					"title": "Go to Real Estate Section",
+					"link": "#"
+				},
+				{
+					"title": "Go to Real Estate Section",
+					"link": "#"
+				},
+				{
+					"title": "Go to Real Estate Section",
+					"link": "#"
+				},
+				{
+					"title": "Go to Real Estate Section",
+					"link": "#"
+				}
+			]
 		}
 	},
 	{
