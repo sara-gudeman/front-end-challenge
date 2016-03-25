@@ -1,3 +1,64 @@
+body {
+	font-size: 12px;
+	font-family: arial, helvetica, sans-serif;;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	margin: 0.25em 0;
+	padding-left: 0;
+	list-style-position: inside;
+	list-style: none;
+}
+
+ul li:before {
+	content:"•";
+	font-size: 0.9em;
+	margin-right: 0.5em;
+}
+
 .content_panel {
 	display: flex;
+	margin: .5em;
+}
+
+.article_container {
+	width: 18em;
+}
+
+.description {
+	display: inline;
+}
+
+.article_title {
+	font-size: 1.3em;
+	line-height: 1.3em;
+}
+
+
+.article_title, .article_description {
+	font-family: georgia, "times new roman", times, serif;
+	margin: 0;
+}
+
+.article_description {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+
+.article_img {
+	margin: 1em;
+	margin-right: 0;
+	margin-top: 0;
+	float: right;
+	height: 100px;
+	width: 100px;
 }
