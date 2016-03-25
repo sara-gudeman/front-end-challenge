@@ -14,12 +14,18 @@ var Classifieds = React.createClass({
 		}
 	},
 	getContent: function () {
-		return this.props.data[this.props.selected].content;
+		return this.props.data[this.state.selected].content;
+	},
+	selectTab: function (id, event) {
+		event.preventDefault();
+		this.setState({
+			selected: id
+		});
 	},
 	render: function () {
 		return (
 			<div>
-				<NavBar data={this.props.data} />
+				<NavBar selectTab={this.selectTab} data={this.props.data} />
 				<Content content={this.getContent()} />
 			</div>
 		);
