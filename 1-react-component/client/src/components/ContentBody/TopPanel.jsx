@@ -7,7 +7,7 @@ var TopPanel = React.createClass({
 		return (
 			<div className="content_panel">
 				<Article article={this.props.data.article} />
-				<SectionLinks />
+				<SectionLinks details={this.props.data.details} />
 			</div>
 		);
 	}
