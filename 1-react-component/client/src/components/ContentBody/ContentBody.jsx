@@ -1,5 +1,4 @@
 var React = require('react');
-var ContentPanel = require('./ContentPanel.jsx');
 var TopPanel = require('./TopPanel.jsx');
 var BottomPanel = require('./BottomPanel.jsx');
 
