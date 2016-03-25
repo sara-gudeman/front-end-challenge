@@ -1,12 +1,13 @@
 var React = require('react');
-var Article = require('../WIP-Content/Article.jsx');
+var Article = require('../Content/Article.jsx');
+var SectionLinks = require('../Content/SectionLinks.jsx');
 
 var TopPanel = React.createClass({
 	render: function () {
 		return (
 			<div className="content_panel">
 				<Article />
-				Detail links
+				<SectionLinks />
 			</div>
 		);
 	}
