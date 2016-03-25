@@ -1,7 +1,6 @@
 var React = require('react');
 var NavBar = require('./NavBar/NavBar.jsx');
-var Content = require('./Content/Content.jsx');
-var Advertisement = require('./Advertisement/Advertisement.jsx');
+var ContentBody = require('./ContentBody/ContentBody.jsx');
 
 var Classifieds = React.createClass({
 	getDefaultProps: function () {
@@ -27,13 +26,7 @@ var Classifieds = React.createClass({
 		return (
 			<div>
 				<NavBar selectTab={this.selectTab} data={this.props.data} />
-				<div className="content_box">
-					<Content featured={this.getContent('featured')} details={this.getContent('details')} />
-					<hr />
-					<Advertisement data={this.getContent('advertisement')} />
-					<hr />
-					<footer>Place a classified ad</footer>
-				</div>
+				<ContentBody />
 			</div>
 		);
 	}
