@@ -6,7 +6,7 @@ var ContentBody = React.createClass({
 	render: function () {
 		return (
 			<div>
-				<TopPanel />
+				<TopPanel data={this.props.data} />
 				<BottomPanel />
 			</div>
 		);
