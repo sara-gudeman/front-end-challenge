@@ -5,7 +5,7 @@ var NavBar = React.createClass({
 	render: function () {
 		return (
 			<nav>
-				<ul>
+				<ul className="tab_list">
 					{this.props.data.map(function (item, index) {
 						return <NavItem key={index} section={item} />
 					})}

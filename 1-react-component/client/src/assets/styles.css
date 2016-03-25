@@ -1,3 +1,16 @@
 body {
-	background-color: #FF00FF;
+	background-color: #FFF;
 }
+
+.tab_list {
+	list-style: none;
+}
+
+.tab_item {
+	display: inline-block;
+	margin: 1em;
+}
+
+.tab-item:last-child {
+	margin-right: 0;
+};
