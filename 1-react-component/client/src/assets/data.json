@@ -1,6 +1,14 @@
 {
   "classifieds": [
     {
+      "name": "test1",
+      "content": "content test1"
+    },
+    {
+      "name": "test2",
+      "content": "content test2"
+    },
+    {
       "name": "real estate",
       "content": {
         "featured": {
