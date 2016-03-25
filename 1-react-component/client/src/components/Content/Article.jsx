@@ -3,16 +3,14 @@ var React = require('react');
 var Article = React.createClass({
 	render: function () {
 		return (
-			<div>
-				<span className="subsection_title">{this.props.article.subsection}</span>
-				<span className="article_title">
+			<div className="article_container">
+				<h4 className="subsection_title">{this.props.article.subsection}</h4>
+				<h5 className="article_title">
 					<a href={this.props.article.link}>{this.props.article.title}</a>
-				</span>
-				<p className="description">
-					{this.props.article.description}
-				</p>
-				<img src={this.props.article.img} />
-				<ul>
+				</h5>
+				<img className="article_img" src={this.props.article.img} />
+				<p className="article_description">{this.props.article.description}</p>
+				<ul className="styled_bullets">
 					<li>
 						<a href={this.props.article.slideshow}>Slide Show</a>
 					</li>
