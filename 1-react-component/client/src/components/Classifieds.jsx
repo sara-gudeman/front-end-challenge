@@ -24,7 +24,7 @@ var Classifieds = React.createClass({
 	},
 	render: function () {
 		return (
-			<div>
+			<div className="classifieds_container">
 				<NavBar selectTab={this.selectTab} data={this.props.data} />
 				<ContentBody data={this.getContent()} />
 			</div>

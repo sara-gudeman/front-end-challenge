@@ -6,9 +6,9 @@ var BottomPanel = React.createClass({
 		console.log(this.props.data)
 		return (
 			<div className="content_panel">
-				<img src={this.props.data.img_lrg} />
+				<img className="advert_img_lrg" src={this.props.data.img_lrg} />
 				<List data={this.props.data.links} />
-				<img src={this.props.data.img_sm} />
+				<img className="advert_img_sm" src={this.props.data.img_sm} />
 			</div>
 		);
 	}

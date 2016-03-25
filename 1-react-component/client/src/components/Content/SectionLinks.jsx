@@ -4,8 +4,8 @@ var List = require ('../List/List.jsx');
 var SectionLinks = React.createClass({
 	render: function () {
 		return (
-			<div>
-				<span className="subsection_title">{this.props.details.subsection}</span>
+			<div className="section_container">
+				<h4 className="subsection_title">{this.props.details.subsection}</h4>
 				<List data={this.props.details.links} />
 			</div>
 		);
