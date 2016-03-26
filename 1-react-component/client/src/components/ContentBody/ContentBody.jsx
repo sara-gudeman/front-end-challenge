@@ -11,7 +11,7 @@ var ContentBody = React.createClass({
 				<BottomPanel data={this.props.data.advert} />
 				<hr />
 				<footer className="classified_footer">
-					<a href="#">Place a Classified Ad</a>
+					<a href="#">Place a Classified Ad<i className="fa fa-angle-double-right fa-fw"></i></a>
 				</footer>
 			</div>
 		);

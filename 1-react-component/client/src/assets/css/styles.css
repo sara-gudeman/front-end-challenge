@@ -10,6 +10,13 @@ body {
 
 a {
 	text-decoration: none;
+	color: #326891;
+}
+
+hr {
+	border: 0;
+	height: 0;
+	border-top: 1px solid #D9D9D9;
 }
 
 a:hover {
@@ -47,17 +54,19 @@ ul.tab_list {
 
 ul.tab_list li {
 	display: inline-block;
+	background-color: #f0f4f5;
 }
 
 ul.tab_list li:first-child {
 	border-left: 1px solid;
+	border-color: #D9D9D9;
 }
 
 .tab_list li a {
 	display: block;
 	border: solid;
 	border-width: 1px 1px 0 0;
-	border-color: black;
+	border-color: #D9D9D9;
 	padding: 0.25em 0.75em;
 	text-transform: uppercase;
 	margin-bottom: -1px;
@@ -65,10 +74,11 @@ ul.tab_list li:first-child {
 
 .tab_list li a.selected {
 	border-bottom: 1px solid white;
+	background-color: white;
 }
 
 .content_container {
-  border: 1px solid black;
+  border: 1px solid #D9D9D9;
   padding: 0.5em;
 }
 
@@ -79,10 +89,6 @@ ul.tab_list li:first-child {
 .article_container {
 	width: 60%;
 	padding-right: 0.8em;
-}
-
-.description {
-	display: inline;
 }
 
 .article_title {
@@ -98,7 +104,7 @@ ul.tab_list li:first-child {
 
 .article_description {
 	margin: 0;
-	font-size: 1.2em;
+	font-size: 1.15em;
 }
 
 .subsection_title {
@@ -119,11 +125,16 @@ ul.tab_list li:first-child {
 
 .advert_img_sm {
 	height: 50px;
-	margin: 0;
+	margin: 0.5em;
 }
 
 ul.advert_list {
 	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.advert_list li a {
+	line-height: 1.5em;
 }
 
 .article_img {
@@ -137,5 +148,9 @@ ul.advert_list {
 
 .classified_footer {
 	text-align: center;
-	padding: 0.2em 0;
+	padding: 0.2em 0 0.4em 0;
+}
+
+.section_links li a {
+	line-height: 1.4em;
 }

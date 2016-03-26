@@ -12,7 +12,7 @@ var Article = React.createClass({
 				<p className="article_description">{this.props.article.description}</p>
 				<ul className="styled">
 					<li>
-						<a href={this.props.article.slideshow}>Slide Show</a>
+						<a href={this.props.article.slideshow}><i className="fa fa-camera-retro fa-fw"></i>Slide Show</a>
 					</li>
 				</ul>				
 			</div>

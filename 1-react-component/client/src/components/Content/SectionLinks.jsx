@@ -6,7 +6,7 @@ var SectionLinks = React.createClass({
 		return (
 			<div className="section_container">
 				<h4 className="subsection_title">{this.props.details.subsection}</h4>
-				<List listClass="styled" data={this.props.details.links} />
+				<List listClass="styled section_links" data={this.props.details.links} />
 			</div>
 		);
 	}
