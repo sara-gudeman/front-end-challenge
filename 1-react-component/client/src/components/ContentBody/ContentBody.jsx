@@ -7,7 +7,12 @@ var ContentBody = React.createClass({
 		return (
 			<div className="content_container">
 				<TopPanel data={this.props.data} />
+				<hr />
 				<BottomPanel data={this.props.data.advert} />
+				<hr />
+				<footer className="classified_footer">
+					<a href="#">Place a Classified Ad</a>
+				</footer>
 			</div>
 		);
 	}

@@ -69,11 +69,11 @@ ul.tab_list li:first-child {
 
 .content_container {
   border: 1px solid black;
+  padding: 0.5em;
 }
 
 .content_panel {
 	display: flex;
-	padding: 0.5em;
 }
 
 .article_container {
@@ -108,22 +108,22 @@ ul.tab_list li:first-child {
 }
 
 .advert_img_lrg {
-	width: 100%;
-	height: 100%;
+	width: 210px;
 }
 
 .advert_img_container {
-	width: 75%;
-	padding: .8em;
+	width: 55%;
+	padding: 0;
+	margin: 0;
 }
 
 .advert_img_sm {
-	width: 75%;
-	height: 75%;
+	height: 50px;
+	margin: 0;
 }
 
-.advert_list_container ul {
-	list-style: none;
+ul.advert_list {
+	margin-top: 0;
 }
 
 .article_img {
@@ -133,4 +133,9 @@ ul.tab_list li:first-child {
 	float: right;
 	height: 100px;
 	width: 100px;
+}
+
+.classified_footer {
+	text-align: center;
+	padding: 0.2em 0;
 }
