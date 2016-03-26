@@ -4,10 +4,10 @@
 		"section": "Real Estate",
 		"article": {
 		  "subsection": "International Real Estate",
-		  "title": "House Hunting in...London",
+		  "title": "House Hunting in... London",
 		  "link": "#",
 		  "description": "Despite the slump after the 2008 housing crash, prices in London have rebounded to their highest levels ever.",
-		  "img": "images/london_house.jpg",
+		  "img": "http://i64.tinypic.com/2wlu3gh.png",
 		  "slideshow": "#"
 		},
 		"details": {
@@ -18,28 +18,219 @@
 					"link": "#"
 				},
 				{
-					"title": "Go to Real Estate Section",
+					"title": "Search For Properties",
 					"link": "#"
 				},
 				{
-					"title": "Go to Real Estate Section",
+					"title": "Download the Real Estate App",
 					"link": "#"
 				},
 				{
-					"title": "Go to Real Estate Section",
+					"title": "Commercial Real Estate",
+					"link": "#"
+				},
+				{
+					"title": "Video Showcase: Real Estate",
+					"link": "#"
+				},
+				{
+					"title": "Post an Ad",
+					"link": "#"
+				}
+			]
+		},
+		"advert": {
+			"img_lrg": "http://i65.tinypic.com/qsnm8l.png",
+			"img_sm": "http://i67.tinypic.com/35hh06w.png",
+			"links": [
+				{
+					"title": "NoMads newest condos",
+					"link": "#"
+				},
+				{
+					"title": "2 BRs starting $2.050 M",
+					"link": "#"
+				},
+				{
+					"title": "3 BRs starting $2.9 M",
 					"link": "#"
 				}
 			]
 		}
 	},
 	{
-		"section": "Autos"
+		"section": "Autos",
+		"article": {
+		  "subsection": "International Automobiles",
+		  "title": "Automobile Hunting in... London",
+		  "link": "#",
+		  "description": "Despite the slump after the 2008 housing crash, prices in London have rebounded to their highest levels ever.",
+		  "img": "http://i64.tinypic.com/2wlu3gh.png",
+		  "slideshow": "#"
+		},
+		"details": {
+			"subsection": "Find Cars",
+			"links": [
+				{
+					"title": "Go to Auto Section",
+					"link": "#"
+				},
+				{
+					"title": "Search For Cars",
+					"link": "#"
+				},
+				{
+					"title": "Download the Car App",
+					"link": "#"
+				},
+				{
+					"title": "Commercial Automobiles",
+					"link": "#"
+				},
+				{
+					"title": "Video Showcase: Tesla",
+					"link": "#"
+				},
+				{
+					"title": "Post an Ad",
+					"link": "#"
+				}
+			]
+		},
+		"advert": {
+			"img_lrg": "http://i65.tinypic.com/qsnm8l.png",
+			"img_sm": "http://i67.tinypic.com/35hh06w.png",
+			"links": [
+				{
+					"title": "NoMads newest condos",
+					"link": "#"
+				},
+				{
+					"title": "2 BRs starting $2.050 M",
+					"link": "#"
+				},
+				{
+					"title": "3 BRs starting $2.9 M",
+					"link": "#"
+				}
+			]
+		}
 	},
 	{
-		"section": "Jobs"
+		"section": "Jobs",
+		"article": {
+		  "subsection": "Local Industry Careers",
+		  "title": "Career Searching in... San Francisco",
+		  "link": "#",
+		  "description": "Despite the slump after the 2008 housing crash, prices in London have rebounded to their highest levels ever.",
+		  "img": "http://i64.tinypic.com/2wlu3gh.png",
+		  "slideshow": "#"
+		},
+		"details": {
+			"subsection": "Find Jobs",
+			"links": [
+				{
+					"title": "Go to Careers Section",
+					"link": "#"
+				},
+				{
+					"title": "Search For Jobs",
+					"link": "#"
+				},
+				{
+					"title": "Download the Job App",
+					"link": "#"
+				},
+				{
+					"title": "Search Employer Database",
+					"link": "#"
+				},
+				{
+					"title": "Video Showcase: Working on Laptops",
+					"link": "#"
+				},
+				{
+					"title": "Post your Resume",
+					"link": "#"
+				}
+			]
+		},
+		"advert": {
+			"img_lrg": "http://i65.tinypic.com/qsnm8l.png",
+			"img_sm": "http://i67.tinypic.com/35hh06w.png",
+			"links": [
+				{
+					"title": "NoMads newest condos",
+					"link": "#"
+				},
+				{
+					"title": "2 BRs starting $2.050 M",
+					"link": "#"
+				},
+				{
+					"title": "3 BRs starting $2.9 M",
+					"link": "#"
+				}
+			]
+		}
 	},
 	{
-		"section": "All Classifieds"
+		"section": "All Classifieds",
+		"article": {
+		  "subsection": "International Real Estate",
+		  "title": "House Hunting in... London",
+		  "link": "#",
+		  "description": "Despite the slump after the 2008 housing crash, prices in London have rebounded to their highest levels ever.",
+		  "img": "http://i64.tinypic.com/2wlu3gh.png",
+		  "slideshow": "#"
+		},
+		"details": {
+			"subsection": "Find Properties",
+			"links": [
+				{
+					"title": "Go to Real Estate Section",
+					"link": "#"
+				},
+				{
+					"title": "Search For Properties",
+					"link": "#"
+				},
+				{
+					"title": "Download the Real Estate App",
+					"link": "#"
+				},
+				{
+					"title": "Commercial Real Estate",
+					"link": "#"
+				},
+				{
+					"title": "Video Showcase: Real Estate",
+					"link": "#"
+				},
+				{
+					"title": "Post an Ad",
+					"link": "#"
+				}
+			]
+		},
+		"advert": {
+			"img_lrg": "http://i65.tinypic.com/qsnm8l.png",
+			"img_sm": "http://i67.tinypic.com/35hh06w.png",
+			"links": [
+				{
+					"title": "NoMads newest condos",
+					"link": "#"
+				},
+				{
+					"title": "2 BRs starting $2.050 M",
+					"link": "#"
+				},
+				{
+					"title": "3 BRs starting $2.9 M",
+					"link": "#"
+				}
+			]
+		}
 	}
 	]
 }
