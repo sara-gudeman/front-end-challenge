@@ -12,7 +12,10 @@ var NavBar = React.createClass({
 					{this.props.data.map(function (item, index) {
 						return <NavItem handleClick={this.handleClick.bind(this, index)} 
 														key={index} 
-														item={item} />
+														item={item} 
+														selected={this.props.activeTab}
+														id={index}
+														/>
 					}.bind(this))}
 				</ul>
 			</nav>
