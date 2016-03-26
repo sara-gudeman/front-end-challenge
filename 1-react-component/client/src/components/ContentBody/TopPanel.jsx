@@ -5,7 +5,7 @@ var SectionLinks = require('../Content/SectionLinks.jsx');
 var TopPanel = React.createClass({
 	render: function () {
 		return (
-			<div className="content_panel">
+			<div className="top_panel content_panel">
 				<Article article={this.props.data.article} />
 				<SectionLinks details={this.props.data.details} />
 			</div>
