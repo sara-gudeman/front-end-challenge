@@ -3,8 +3,9 @@ var ListItem = require('./ListItem.jsx');
 
 var List = React.createClass({
 	render: function () {
+		var styling = this.props.listClass || '';
 		return (
-			<ul>
+			<ul className={styling}>
 				{this.props.data.map(function (item, index) {
 					return <ListItem 
 													key={index} 

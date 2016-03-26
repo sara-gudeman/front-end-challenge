@@ -5,7 +5,7 @@ var BottomPanel = require('./BottomPanel.jsx');
 var ContentBody = React.createClass({
 	render: function () {
 		return (
-			<div>
+			<div className="content_container">
 				<TopPanel data={this.props.data} />
 				<BottomPanel data={this.props.data.advert} />
 			</div>

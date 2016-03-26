@@ -10,7 +10,7 @@ var Article = React.createClass({
 				</h5>
 				<img className="article_img" src={this.props.article.img} />
 				<p className="article_description">{this.props.article.description}</p>
-				<ul>
+				<ul className="styled">
 					<li>
 						<a href={this.props.article.slideshow}>Slide Show</a>
 					</li>
