@@ -13,14 +13,14 @@ a {
 	color: #326891;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 hr {
 	border: 0;
 	height: 0;
 	border-top: 1px solid #D9D9D9;
-}
-
-a:hover {
-	text-decoration: underline;
 }
 
 ul {
@@ -45,6 +45,15 @@ ul.styled li:before {
 
 ul.styled li {
 	text-indent: -0.75em;
+}
+
+ul.section_links {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.section_links li a {
+	line-height: 1.5em;
 }
 
 ul.tab_list {
@@ -73,7 +82,6 @@ ul.tab_list li:first-child {
 }
 
 .tab_list li a.selected {
-	border-bottom: 1px solid white;
 	background-color: white;
 }
 
@@ -86,25 +94,18 @@ ul.tab_list li:first-child {
 	display: flex;
 }
 
+.content_footer {
+	text-align: center;
+	padding: 0.2em 0 0.4em 0;
+}
+
+.top_panel {
+	height: 200px;
+}
+
 .article_container {
 	width: 240px;
 	padding-right: 0.8em;
-}
-
-.article_title {
-	font-size: 1.3em;
-	line-height: 1.3em;
-}
-
-
-.article_title, .article_description {
-	font-family: georgia, "times new roman", times, serif;
-	margin: 0;
-}
-
-.article_description {
-	margin: 0;
-	font-size: 1.15em;
 }
 
 .subsection_title {
@@ -113,36 +114,18 @@ ul.tab_list li:first-child {
 	margin-bottom: .25em;
 }
 
-.section_container {
-	width: 200px;
+.article_title {
+	font-size: 1.3em;
+	line-height: 1.3em;
 }
 
-.advert_img_lrg {
-	width: 210px;
+.article_title, .article_description {
+	font-family: georgia, "times new roman", times, serif;
+	margin: 0;
 }
 
-.advert_list_container {
-	width: 200px;
-}
-
-.advert_img_container {
-	width: 200px;
-	padding: 0;
-	margin-right: 1em;
-}
-
-.advert_img_sm {
-	height: 50px;
-	margin: 0.5em;
-}
-
-ul.advert_list {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-.advert_list li a {
-	line-height: 1.5em;
+.article_description {
+	font-size: 1.15em;
 }
 
 .article_img {
@@ -153,15 +136,20 @@ ul.advert_list {
 	width: 100px;
 }
 
-.classified_footer {
-	text-align: center;
-	padding: 0.2em 0 0.4em 0;
+.section_container {
+	width: 200px;
 }
 
-.section_links li a {
-	line-height: 1.4em;
+.advert_img_lrg {
+	width: 210px;
 }
 
-.top_panel {
-	height: 200px;
+.advert_img_container {
+	width: 200px;
+	margin-right: 1em;
+}
+
+.advert_img_sm {
+	height: 50px;
+	margin: 0.5em;
 }

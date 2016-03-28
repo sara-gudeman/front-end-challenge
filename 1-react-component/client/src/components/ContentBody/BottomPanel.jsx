@@ -8,8 +8,8 @@ var BottomPanel = React.createClass({
 				<div className="advert_img_container">
 					<img className="advert_img_lrg" src={this.props.data.img_lrg} />
 				</div>
-				<div className="advert_list_container">
-					<List listClass="advert_list" data={this.props.data.links} />
+				<div className="section_container">
+					<List listClass="section_links" data={this.props.data.links} />
 					<img className="advert_img_sm" src={this.props.data.img_sm} />
 				</div>
 			</div>
