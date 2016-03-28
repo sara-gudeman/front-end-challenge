@@ -61,11 +61,11 @@
 	{
 		"section": "Autos",
 		"article": {
-		  "subsection": "International Automobiles",
-		  "title": "Automobile Hunting in... London",
+		  "subsection": "Unexpected Automobiles",
+		  "title": "Finding the Toyota Ipsum",
 		  "link": "#",
-		  "description": "Despite the slump after the 2008 housing crash, prices in London have rebounded to their highest levels ever.",
-		  "img": "http://i64.tinypic.com/2wlu3gh.png",
+		  "description": "Contrary to popular belief, the Toyota Ipsum is a real vehicle. Check it out on Wikipedia sometime.",
+		  "img": "http://placehold.it/100x100",
 		  "slideshow": "#"
 		},
 		"details": {
@@ -98,19 +98,19 @@
 			]
 		},
 		"advert": {
-			"img_lrg": "http://i65.tinypic.com/qsnm8l.png",
-			"img_sm": "http://i67.tinypic.com/35hh06w.png",
+			"img_lrg": "http://placehold.it/210x120",
+			"img_sm": "http://placehold.it/100x50",
 			"links": [
 				{
-					"title": "NoMads newest condos",
+					"title": "Buy a Car Here",
 					"link": "#"
 				},
 				{
-					"title": "2 BRs starting $2.050 M",
+					"title": "Cars starting at $2.050 M",
 					"link": "#"
 				},
 				{
-					"title": "3 BRs starting $2.9 M",
+					"title": "Fancy cars starting $2.9 M",
 					"link": "#"
 				}
 			]
@@ -122,8 +122,8 @@
 		  "subsection": "Local Industry Careers",
 		  "title": "Career Searching in... San Francisco",
 		  "link": "#",
-		  "description": "Despite the slump after the 2008 housing crash, prices in London have rebounded to their highest levels ever.",
-		  "img": "http://i64.tinypic.com/2wlu3gh.png",
+		  "description": "Lorem ipsum dolor sit amet, qui nemore reprehendunt no. Sed ad consulatu reprehendunt. Jobs jobs.",
+		  "img": "http://placehold.it/100x100",
 		  "slideshow": "#"
 		},
 		"details": {
@@ -156,19 +156,19 @@
 			]
 		},
 		"advert": {
-			"img_lrg": "http://i65.tinypic.com/qsnm8l.png",
-			"img_sm": "http://i67.tinypic.com/35hh06w.png",
+			"img_lrg": "http://placehold.it/210x120",
+			"img_sm": "http://placehold.it/100x50",
 			"links": [
 				{
-					"title": "NoMads newest condos",
+					"title": "The Newest Jobs",
 					"link": "#"
 				},
 				{
-					"title": "2 BRs starting $2.050 M",
+					"title": "Some Sponsors Here",
 					"link": "#"
 				},
 				{
-					"title": "3 BRs starting $2.9 M",
+					"title": "Here's Another Sponsor",
 					"link": "#"
 				}
 			]
@@ -177,34 +177,34 @@
 	{
 		"section": "All Classifieds",
 		"article": {
-		  "subsection": "International Real Estate",
-		  "title": "House Hunting in... London",
+		  "subsection": "Some Featured Section",
+		  "title": "Some Featured Headline Section",
 		  "link": "#",
-		  "description": "Despite the slump after the 2008 housing crash, prices in London have rebounded to their highest levels ever.",
-		  "img": "http://i64.tinypic.com/2wlu3gh.png",
+		  "description": "All the most important buzzwords mentioned in the history of humanity, for this special article.",
+		  "img": "http://placehold.it/100x100",
 		  "slideshow": "#"
 		},
 		"details": {
-			"subsection": "Find Properties",
+			"subsection": "All Sections",
 			"links": [
 				{
 					"title": "Go to Real Estate Section",
 					"link": "#"
 				},
 				{
-					"title": "Search For Properties",
+					"title": "Go to the Autos Section",
 					"link": "#"
 				},
 				{
-					"title": "Download the Real Estate App",
+					"title": "Go to the Jobs Section",
 					"link": "#"
 				},
 				{
-					"title": "Commercial Real Estate",
+					"title": "Download the Classifieds App",
 					"link": "#"
 				},
 				{
-					"title": "Video Showcase: Real Estate",
+					"title": "Video Showcase: Relevant Media",
 					"link": "#"
 				},
 				{
@@ -214,19 +214,19 @@
 			]
 		},
 		"advert": {
-			"img_lrg": "http://i65.tinypic.com/qsnm8l.png",
-			"img_sm": "http://i67.tinypic.com/35hh06w.png",
+			"img_lrg": "http://placehold.it/210x120",
+			"img_sm": "http://placehold.it/100x50",
 			"links": [
 				{
-					"title": "NoMads newest condos",
+					"title": "Sponsored Link #1",
 					"link": "#"
 				},
 				{
-					"title": "2 BRs starting $2.050 M",
+					"title": "Another Sponsored Link",
 					"link": "#"
 				},
 				{
-					"title": "3 BRs starting $2.9 M",
+					"title": "Some Link to Details",
 					"link": "#"
 				}
 			]
